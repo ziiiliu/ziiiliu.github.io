@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.58.2" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Flask Intro &middot; Ziyi Liu</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://ziiiliu.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://ziiiliu.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://ziiiliu.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://ziiiliu.github.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://ziiiliu.github.io/"><h1>Ziyi Liu</h1></a>
+      <p class="lead">
+       My personal blog site 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://ziiiliu.github.io/">Home</a> </li>
+        <li><a href="">  </a></li><li><a href="ziiiliu.github.io"> Blogs </a></li><li><a href="https://github.com/username/"> Github </a></li><li><a href="https://www.linkedin.com/in/username/"> LinkedIn </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2020. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Flask Intro</h1>
+  <time datetime=2020-10-29T20:30:20Z class="post-date">Thu, Oct 29, 2020</time>
+  
+
+<p>So after delaying this website project for almost a year, I&rsquo;m back online and will be producing weekly microblogs(stressful terms, sorry) on CS-related contents, as well as other random blogs about life. In the meantime I am still familiarising myself with Hugo, so don&rsquo;t be surprised if the structuring and themes get a bit whimsical - or actually I might just do it for fun :)))</p>
+
+<h2 id="flask-and-django">Flask and Django</h2>
+
+<p>Web develpment has not been my top priority, and it is only very recently(last two days) that I decided to start picking up Python web dev as a start. The two important and competing frameworks, Django and Flask, provide different features and functionalities for projects with different scales and goals. Apparently, Django is more fully equipped and all-rounded for different kinds of tasks, while Flask is more lightweight and flexible. This fundamental difference results in their divergence in application purposes: Django more apparopriate and usable with large projects which requires the full set of tool kit, while Flask with mid- and small-projects.</p>
+
+<p>And I, barely able to pull time to write blogs, certainly cannot afford to either build a large project in the coming future or learn something as heavy as Django for now, will focus more on learning some very basics of Flask to power my application-side web skills. Hopefully this would spark some more motivation of learning the theories soon outta me.</p>
+
+<p>_Aside: I have, however, seen a few comments saying that Hugo or the sort of stuff is the new trending, especially for blogs(static pages),but neither Flask nor Django stops there. And that&rsquo;s why I am going to explore a bit more. Nonetheless, I will keep my early stage focus on Hugo so that my blogs will, hopefully, look less like of a 1990s product.</p>
+
+<h2 id="flask-basics-https-flask-palletsprojects-com-en-1-1-x-tutorial-deploy"><a href="https://flask.palletsprojects.com/en/1.1.x/tutorial/deploy/">Flask Basics</a></h2>
+
+<p>As you see, this <strong>Microblog</strong> has no intention in reinventing the tutorial once again when there&rsquo;s such a nice official tutorial and documentation. Rather, I will put the most useful tips/reminders/structures and some of the very essential codes and ideas here. So as to kick off the resuscitation of my long-ignored blogs, here&rsquo;s a snippet of the &lsquo;Hello world&rsquo;-equivalent Flask code:</p>
+
+<pre><code>from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
+</code></pre>
+
+<p>Alright, I&rsquo;ll pause here, and my next blog would feature the basics of Flask for a blog project. Until then!</p>
+
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>
