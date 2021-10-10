@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webs on Ziyi Liu</title>
+    <link>https://ziiiliu.github.io/web/</link>
+    <description>Recent content in Webs on Ziyi Liu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 Oct 2020 20:30:20 +0000</lastBuildDate><atom:link href="https://ziiiliu.github.io/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flask Intro</title>
+      <link>https://ziiiliu.github.io/web/flask/</link>
+      <pubDate>Thu, 29 Oct 2020 20:30:20 +0000</pubDate>
+      
+      <guid>https://ziiiliu.github.io/web/flask/</guid>
+      <description>So after delaying this website project for almost a year, I&amp;rsquo;m back online and will be producing weekly microblogs(stressful terms, sorry) on CS-related contents, as well as other random blogs about life. In the meantime I am still familiarising myself with Hugo, so don&amp;rsquo;t be surprised if the structuring and themes get a bit whimsical - or actually I might just do it for fun :)))
+Flask and Django Web develpment has not been my top priority, and it is only very recently(last two days) that I decided to start picking up Python web dev as a start.</description>
+    </item>
+    
+  </channel>
+</rss>

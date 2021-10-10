@@ -1,0 +1,66 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - Ziyi Liu</title>
+        <link>https://ziiiliu.github.io/posts/</link>
+        <description>All Posts | Ziyi Liu</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 29 Oct 2020 20:30:20 &#43;0000</lastBuildDate><atom:link href="https://ziiiliu.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Flask Intro</title>
+    <link>https://ziiiliu.github.io/posts/web/flask/</link>
+    <pubDate>Thu, 29 Oct 2020 20:30:20 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://ziiiliu.github.io/posts/web/flask/</guid>
+    <description><![CDATA[So after delaying this website project for almost a year, I&rsquo;m back online and will be producing weekly microblogs(stressful terms, sorry) on CS-related contents, as well as other random blogs about life. In the meantime I am still familiarising myself with Hugo, so don&rsquo;t be surprised if the structuring and themes get a bit whimsical - or actually I might just do it for fun :)))
+Flask and Django Web develpment has not been my top priority, and it is only very recently(last two days) that I decided to start picking up Python web dev as a start.]]></description>
+</item><item>
+    <title>Numpy practices</title>
+    <link>https://ziiiliu.github.io/posts/numpy-practices/</link>
+    <pubDate>Thu, 19 Sep 2019 14:34:48 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://ziiiliu.github.io/posts/numpy-practices/</guid>
+    <description><![CDATA[Useful numpy exercises ranging from the very basics to some somewhat complex but useful numpy features.]]></description>
+</item><item>
+    <title>Markdown basics</title>
+    <link>https://ziiiliu.github.io/posts/hello/</link>
+    <pubDate>Tue, 17 Sep 2019 14:50:36 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://ziiiliu.github.io/posts/hello/</guid>
+    <description><![CDATA[Headers First level header: ====== beneath
+Second lever header: &mdash;&mdash;- beneath
+  Size No.s of # you put in front of a paragraph determines the size of the font of this paragraph.
+  Blockquote  So this is a blockquote.
+ A blockquote is done with a &lsquo;&gt;&rsquo; at the very front of the line for every line that you want to quote.
+ This is one line]]></description>
+</item><item>
+    <title></title>
+    <link>https://ziiiliu.github.io/posts/blog-piece-on-google-colab-usage/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://ziiiliu.github.io/posts/blog-piece-on-google-colab-usage/</guid>
+    <description><![CDATA[Blog Piece on Google Colab Usage]]></description>
+</item><item>
+    <title></title>
+    <link>https://ziiiliu.github.io/posts/blog-piece-on-prompt-tuning/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://ziiiliu.github.io/posts/blog-piece-on-prompt-tuning/</guid>
+    <description><![CDATA[Blog Piece on Prompt Tuning
+Blog Structure
+ Introduction to Prompt Tuning Paradigm Reference to the survey work and summarise some important ideas Run a simple example with my own codes (a small binary classification demo)  History has repeatedly shown the power of revolutions over reforms, where revolutions topple the previous patterns with a completely new landscapes, while reforms are patches that hold everything in place.]]></description>
+</item><item>
+    <title></title>
+    <link>https://ziiiliu.github.io/posts/blog-post-recording-my-internship-result/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://ziiiliu.github.io/posts/blog-post-recording-my-internship-result/</guid>
+    <description><![CDATA[Blog Post recording my Internship results and post-mortem analysis]]></description>
+</item><item>
+    <title></title>
+    <link>https://ziiiliu.github.io/posts/resources/prompt_tuning/resources/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://ziiiliu.github.io/posts/resources/prompt_tuning/resources/</guid>
+    <description><![CDATA[Resources and References for Prompt-Tuning Post Papers Some relevant papers I have used, read and referenced are listed here:
+ Prompt Survey: Pretrain, Prompt, Predict  Repos Useful repositories for prompt tuning projects:
+ THU PTR Prompt Papers  ]]></description>
+</item></channel>
+</rss>
