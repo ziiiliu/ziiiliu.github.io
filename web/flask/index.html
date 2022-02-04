@@ -4,14 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>Flask Intro - Ziyi Liu</title><meta name="Description" content="Ziii&#39;s Page"><meta property="og:title" content="Flask Intro" />
+        <title>Flask Intro - Ziyi Liu</title><meta name="description" content="Ziii&#39;s Page"><meta property="og:title" content="Flask Intro" />
 <meta property="og:description" content="So after delaying this website project for almost a year, I&rsquo;m back online and will be producing weekly microblogs(stressful terms, sorry) on CS-related contents, as well as other random blogs about life. In the meantime I am still familiarising myself with Hugo, so don&rsquo;t be surprised if the structuring and themes get a bit whimsical - or actually I might just do it for fun :)))
 Flask and Django Web develpment has not been my top priority, and it is only very recently(last two days) that I decided to start picking up Python web dev as a start." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ziiiliu.github.io/web/flask/" /><meta property="article:section" content="Web" />
 <meta property="article:published_time" content="2020-10-29T20:30:20+00:00" />
-<meta property="article:modified_time" content="2020-10-29T20:30:20+00:00" />
+<meta property="article:modified_time" content="2021-07-06T16:32:33+01:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Flask Intro"/>
@@ -20,7 +19,7 @@ Flask and Django Web develpment has not been my top priority, and it is only ver
 <meta name="application-name" content="Ziyi Liu">
 <meta name="apple-mobile-web-app-title" content="Ziyi Liu"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://ziiiliu.github.io/web/flask/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://ziiiliu.github.io/web/flask/" /><link rel="stylesheet" href="/css/page.min.css"><link rel="stylesheet" href="/css/home.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -30,15 +29,14 @@ Flask and Django Web develpment has not been my top priority, and it is only ver
             "@type": "WebPage",
             "@id": "https:\/\/ziiiliu.github.io\/web\/flask\/"
         },"genre": "Web","wordcount":  393 ,
-        "url": "https:\/\/ziiiliu.github.io\/web\/flask\/","datePublished": "2020-10-29T20:30:20+00:00","dateModified": "2020-10-29T20:30:20+00:00","publisher": {
+        "url": "https:\/\/ziiiliu.github.io\/web\/flask\/","datePublished": "2020-10-29T20:30:20+00:00","dateModified": "2021-07-06T16:32:33+01:00","publisher": {
             "@type": "Organization",
             "name": "Author"},"author": {
                 "@type": "Person",
                 "name": "Author"
             },"description": ""
     }
-    </script></head>
-    <body header-desktop="" header-mobile=""><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+    </script></head><body data-header-desktop="" data-header-mobile=""><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
 
         <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
@@ -62,43 +60,54 @@ Flask and Django Web develpment has not been my top priority, and it is only ver
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about/" title="">About Me</a><a class="menu-item" href="/projects/" title="">Projects</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
-                <i class="fas fa-adjust fa-fw"></i>
-            </a></div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about/" title="">About Me</a><a class="menu-item" href="/projects/" title="">Projects</a><div class="menu-item"><a href="javascript:void(0);" class="theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div></div>
     </div>
-</header>
-<div class="search-dropdown desktop">
-    <div id="search-dropdown-desktop"></div>
-</div>
-<div class="search-dropdown mobile">
-    <div id="search-dropdown-mobile"></div>
-</div>
-<main class="main">
-                <div class="container"><div class="page single special"><h1 class="single-title animated pulse faster">Flask Intro</h1><div class="content" id="content"><p>So after delaying this website project for almost a year, I&rsquo;m back online and will be producing weekly microblogs(stressful terms, sorry) on CS-related contents, as well as other random blogs about life. In the meantime I am still familiarising myself with Hugo, so don&rsquo;t be surprised if the structuring and themes get a bit whimsical - or actually I might just do it for fun :)))</p>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto" style="top:8rem;">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single special" data-toc="disable"><h2 class="single-title animated fadeInDown faster">Flask Intro</h2><div class="single-card" ><div class="details toc" id="toc-static"  data-kept="">
+                    <div class="details-summary toc-title">
+                        <span>Contents</span>
+                        <span><i class="details-icon fas fa-angle-right"></i></span>
+                    </div>
+                    <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#flask-and-django">Flask and Django</a></li>
+    <li><a href="#flask-basicshttpsflaskpalletsprojectscomen11xtutorialdeploy"><a href="https://flask.palletsprojects.com/en/1.1.x/tutorial/deploy/">Flask Basics</a></a></li>
+  </ul>
+</nav></div>
+                </div><div class="content" id="content"><p>So after delaying this website project for almost a year, I&rsquo;m back online and will be producing weekly microblogs(stressful terms, sorry) on CS-related contents, as well as other random blogs about life. In the meantime I am still familiarising myself with Hugo, so don&rsquo;t be surprised if the structuring and themes get a bit whimsical - or actually I might just do it for fun :)))</p>
 <h2 id="flask-and-django">Flask and Django</h2>
 <p>Web develpment has not been my top priority, and it is only very recently(last two days) that I decided to start picking up Python web dev as a start. The two important and competing frameworks, Django and Flask, provide different features and functionalities for projects with different scales and goals. Apparently, Django is more fully equipped and all-rounded for different kinds of tasks, while Flask is more lightweight and flexible. This fundamental difference results in their divergence in application purposes: Django more apparopriate and usable with large projects which requires the full set of tool kit, while Flask with mid- and small-projects.</p>
 <p>And I, barely able to pull time to write blogs, certainly cannot afford to either build a large project in the coming future or learn something as heavy as Django for now, will focus more on learning some very basics of Flask to power my application-side web skills. Hopefully this would spark some more motivation of learning the theories soon outta me.</p>
 <p>_Aside: I have, however, seen a few comments saying that Hugo or the sort of stuff is the new trending, especially for blogs(static pages),but neither Flask nor Django stops there. And that&rsquo;s why I am going to explore a bit more. Nonetheless, I will keep my early stage focus on Hugo so that my blogs will, hopefully, look less like of a 1990s product.</p>
 <h2 id="flask-basicshttpsflaskpalletsprojectscomen11xtutorialdeploy"><a href="https://flask.palletsprojects.com/en/1.1.x/tutorial/deploy/" target="_blank" rel="noopener noreffer">Flask Basics</a></h2>
 <p>As you see, this <strong>Microblog</strong> has no intention in reinventing the tutorial once again when there&rsquo;s such a nice official tutorial and documentation. Rather, I will put the most useful tips/reminders/structures and some of the very essential codes and ideas here. So as to kick off the resuscitation of my long-ignored blogs, here&rsquo;s a snippet of the &lsquo;Hello world&rsquo;-equivalent Flask code:</p>
-<pre><code>from flask import Flask
+<pre tabindex="0"><code>from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
     return 'Hello, World!'
 </code></pre><p>Alright, I&rsquo;ll pause here, and my next blog would feature the basics of Flask for a blog project. Until then!</p>
-</div></div></div>
-            </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.85.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
-                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info"><div class="post-info-line"><div class="post-info-mod">
+                <span>Updated on 2021-07-06&nbsp;<a class="git-hash" href="https://github.com/ziiiliu/ziiiliu.github.io/commit/d68120c78ec7c06681896b07fa89102d07f3aa89" target="_blank" title="committed&nbsp;by&nbsp;ziyi(canamg2000@hotmail.com)&nbsp;d68120c:&nbsp;stuff">
+                            <i class="fas fa-hashtag fa-fw"></i>d68120c</a></span>
+            </div><div class="post-info-mod"></div>
+        </div></div><div class="post-nav"></div></div>
+</div></article></div>
+            </main>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.88.1">Hugo</a> | Theme - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/"></a></span></div>
+</div>
+</footer>
         </div>
-    </footer></div>
 
         <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
-                <i class="fas fa-arrow-up fa-fw"></i>
-            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
-                <i class="fas fa-comment fa-fw"></i>
-            </a>
-        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
-</html>
+                <i class="fas fa-chevron-up fa-fw"></i>
+            </a></div><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/twemoji/twemoji.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script>window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"twemoji":true};</script><script src="/js/theme.min.js"></script></body></html>
