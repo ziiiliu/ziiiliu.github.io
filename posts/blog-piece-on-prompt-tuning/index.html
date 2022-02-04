@@ -4,38 +4,38 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title> - Ziyi Liu</title><meta name="description" content="Ziii&#39;s Page"><meta property="og:title" content="" />
+        <title>Prompt-tuning introduction - Ziyi Liu</title><meta name="description" content="Ziii&#39;s Page"><meta property="og:title" content="Prompt-tuning introduction" />
 <meta property="og:description" content="Blog Piece on Prompt Tuning
 Blog Structure
  Introduction to Prompt Tuning Paradigm Reference to the survey work and summarise some important ideas Run a simple example with my own codes (a small binary classification demo)  History has repeatedly shown the power of revolutions over reforms, where revolutions topple the previous patterns with a completely new landscapes, while reforms are patches that hold everything in place." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ziiiliu.github.io/posts/blog-piece-on-prompt-tuning/" /><meta property="article:section" content="posts" />
-
-
+<meta property="article:published_time" content="2019-09-19T14:34:48+08:00" />
+<meta property="article:modified_time" content="2019-09-19T14:34:48+08:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=""/>
+<meta name="twitter:title" content="Prompt-tuning introduction"/>
 <meta name="twitter:description" content="Blog Piece on Prompt Tuning
 Blog Structure
  Introduction to Prompt Tuning Paradigm Reference to the survey work and summarise some important ideas Run a simple example with my own codes (a small binary classification demo)  History has repeatedly shown the power of revolutions over reforms, where revolutions topple the previous patterns with a completely new landscapes, while reforms are patches that hold everything in place."/>
 <meta name="application-name" content="Ziyi Liu">
 <meta name="apple-mobile-web-app-title" content="Ziyi Liu"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://ziiiliu.github.io/posts/blog-piece-on-prompt-tuning/" /><link rel="prev" href="https://ziiiliu.github.io/posts/blog-post-recording-my-internship-result/" /><link rel="next" href="https://ziiiliu.github.io/posts/blog-piece-on-google-colab-usage/" /><link rel="stylesheet" href="/css/page.min.css"><link rel="stylesheet" href="/css/home.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://ziiiliu.github.io/posts/blog-piece-on-prompt-tuning/" /><link rel="prev" href="https://ziiiliu.github.io/posts/hello/" /><link rel="next" href="https://ziiiliu.github.io/posts/numpy-practices/" /><link rel="stylesheet" href="/css/page.min.css"><link rel="stylesheet" href="/css/home.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "",
+        "headline": "Prompt-tuning introduction",
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/ziiiliu.github.io\/posts\/blog-piece-on-prompt-tuning\/"
-        },"genre": "posts","wordcount":  65 ,
-        "url": "https:\/\/ziiiliu.github.io\/posts\/blog-piece-on-prompt-tuning\/","publisher": {
+        },"genre": "posts","keywords": "web, flask, html","wordcount":  65 ,
+        "url": "https:\/\/ziiiliu.github.io\/posts\/blog-piece-on-prompt-tuning\/","datePublished": "2019-09-19T14:34:48+08:00","dateModified": "2019-09-19T14:34:48+08:00","publisher": {
             "@type": "Organization",
-            "name": "Author"},"author": {
+            "name": "Ziyi"},"author": {
                 "@type": "Person",
-                "name": "Author"
+                "name": "Ziyi"
             },"description": ""
     }
     </script></head><body data-header-desktop="" data-header-mobile=""><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
@@ -71,9 +71,9 @@ Blog Structure
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single" data-toc="disable"><div class="single-card" ><h2 class="single-title animated flipInX"></h2><div class="post-meta">
-                <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Author</a></span></div>
-                <div class="post-meta-line"><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="0001-01-01">0001-01-01</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;65 words</span>&nbsp;
+        </div><article class="page single" data-toc="disable"><div class="single-card" ><h2 class="single-title animated flipInX">Prompt-tuning introduction</h2><div class="post-meta">
+                <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Ziyi</a></span></div>
+                <div class="post-meta-line"><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2019-09-19">2019-09-19</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;65 words</span>&nbsp;
                     <span><i class="far fa-clock fa-fw"></i>&nbsp;One minute</span>&nbsp;</div>
             </div>
             
@@ -92,15 +92,18 @@ Blog Structure
 </ul>
 <p>History has repeatedly shown the power of revolutions over reforms, where revolutions topple the previous patterns with a completely new landscapes, while reforms are patches that hold everything in place.</p>
 </div><div class="post-footer" id="post-footer">
-    <div class="post-info"><div class="post-info-line"><div class="post-info-mod">
-                <span>Updated on 0001-01-01</span>
+    <div class="post-info"><div class="post-info-tag"><span><a href="/tags/web/">web</a>
+                </span><span><a href="/tags/flask/">flask</a>
+                </span><span><a href="/tags/html/">html</a>
+                </span></div><div class="post-info-line"><div class="post-info-mod">
+                <span>Updated on 2019-09-19</span>
             </div><div class="post-info-mod"></div>
-        </div></div><div class="post-nav"><a href="/posts/blog-post-recording-my-internship-result/" class="prev" rel="prev" title=""><i class="fas fa-angle-left fa-fw"></i>Previous Post</a>
-            <a href="/posts/blog-piece-on-google-colab-usage/" class="next" rel="next" title="">Next Post<i class="fas fa-angle-right fa-fw"></i></a></div></div>
+        </div></div><div class="post-nav"><a href="/posts/hello/" class="prev" rel="prev" title="Markdown basics"><i class="fas fa-angle-left fa-fw"></i>Previous Post</a>
+            <a href="/posts/numpy-practices/" class="next" rel="next" title="Numpy practices">Next Post<i class="fas fa-angle-right fa-fw"></i></a></div></div>
 </div></article></div>
             </main>
             <footer class="footer"><div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.88.1">Hugo</a> | Theme - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
-        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/"></a></span></div>
+        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/"></a></span></div>
 </div>
 </footer>
         </div>

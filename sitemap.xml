@@ -2,21 +2,28 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://ziiiliu.github.io/tags/flask/</loc><lastmod>2022-02-04T23:36:23&#43;00:00</lastmod></url><url>
+            <loc>https://ziiiliu.github.io/tags/html/</loc><lastmod>2022-02-04T23:36:23&#43;00:00</lastmod></url><url>
+            <loc>https://ziiiliu.github.io/tags/ml/</loc><lastmod>2022-02-04T23:36:23&#43;00:00</lastmod></url><url>
+            <loc>https://ziiiliu.github.io/posts/blog-post-recording-my-internship-result/</loc><lastmod>2022-02-04T23:36:23&#43;00:00</lastmod></url><url>
+            <loc>https://ziiiliu.github.io/posts/</loc><lastmod>2022-02-04T23:36:23&#43;00:00</lastmod></url><url>
+            <loc>https://ziiiliu.github.io/tags/project/</loc><lastmod>2022-02-04T23:36:23&#43;00:00</lastmod></url><url>
+            <loc>https://ziiiliu.github.io/posts/resources/prompt_tuning/resources/</loc><lastmod>2022-02-04T23:36:23&#43;00:00</lastmod></url><url>
+            <loc>https://ziiiliu.github.io/tags/</loc><lastmod>2022-02-04T23:36:23&#43;00:00</lastmod></url><url>
+            <loc>https://ziiiliu.github.io/tags/web/</loc><lastmod>2022-02-04T23:36:23&#43;00:00</lastmod></url><url>
+            <loc>https://ziiiliu.github.io/</loc><lastmod>2022-02-04T23:36:23&#43;00:00</lastmod></url><url>
             <loc>https://ziiiliu.github.io/about/</loc><lastmod>2021-08-02T11:04:49&#43;08:00</lastmod></url><url>
-            <loc>https://ziiiliu.github.io/posts/web/flask/</loc><lastmod>2020-10-29T20:30:20&#43;00:00</lastmod></url><url>
-            <loc>https://ziiiliu.github.io/web/flask/</loc><lastmod>2021-07-06T16:32:33&#43;01:00</lastmod></url><url>
-            <loc>https://ziiiliu.github.io/posts/</loc><lastmod>2021-07-06T16:32:33&#43;01:00</lastmod></url><url>
+            <loc>https://ziiiliu.github.io/posts/flask2/</loc><lastmod>2020-11-05T20:46:05&#43;00:00</lastmod></url><url>
+            <loc>https://ziiiliu.github.io/web/flask2/</loc><lastmod>2021-07-06T16:32:33&#43;01:00</lastmod></url><url>
             <loc>https://ziiiliu.github.io/web/</loc><lastmod>2021-07-06T16:32:33&#43;01:00</lastmod></url><url>
-            <loc>https://ziiiliu.github.io/</loc><lastmod>2021-07-06T16:32:33&#43;01:00</lastmod></url><url>
+            <loc>https://ziiiliu.github.io/posts/flask/</loc><lastmod>2021-07-06T16:32:33&#43;01:00</lastmod></url><url>
+            <loc>https://ziiiliu.github.io/web/flask/</loc><lastmod>2021-07-06T16:32:33&#43;01:00</lastmod></url><url>
             <loc>https://ziiiliu.github.io/tags/cs/</loc><lastmod>2021-07-06T16:32:33&#43;01:00</lastmod></url><url>
+            <loc>https://ziiiliu.github.io/posts/blog-piece-on-google-colab-usage/</loc><lastmod>2019-09-19T14:34:48&#43;08:00</lastmod></url><url>
             <loc>https://ziiiliu.github.io/posts/numpy-practices/</loc><lastmod>2021-07-06T16:32:33&#43;01:00</lastmod></url><url>
-            <loc>https://ziiiliu.github.io/tags/</loc><lastmod>2021-07-06T16:32:33&#43;01:00</lastmod></url><url>
+            <loc>https://ziiiliu.github.io/projects/</loc><lastmod>2019-09-19T14:34:48&#43;08:00</lastmod></url><url>
+            <loc>https://ziiiliu.github.io/posts/blog-piece-on-prompt-tuning/</loc><lastmod>2019-09-19T14:34:48&#43;08:00</lastmod></url><url>
             <loc>https://ziiiliu.github.io/posts/hello/</loc><lastmod>2021-07-06T16:32:33&#43;01:00</lastmod></url><url>
             <loc>https://ziiiliu.github.io/tags/md/</loc><lastmod>2021-07-06T16:32:33&#43;01:00</lastmod></url><url>
-            <loc>https://ziiiliu.github.io/posts/blog-piece-on-google-colab-usage/</loc></url><url>
-            <loc>https://ziiiliu.github.io/posts/blog-piece-on-prompt-tuning/</loc></url><url>
-            <loc>https://ziiiliu.github.io/posts/blog-post-recording-my-internship-result/</loc></url><url>
-            <loc>https://ziiiliu.github.io/posts/resources/prompt_tuning/resources/</loc></url><url>
-            <loc>https://ziiiliu.github.io/projects/</loc><priority>0</priority></url><url>
             <loc>https://ziiiliu.github.io/categories/</loc></url><url>
             <loc>https://ziiiliu.github.io/offline/</loc></url></urlset>
