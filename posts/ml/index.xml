@@ -3,7 +3,7 @@
         <title>All Posts - Ziyi Liu</title>
         <link>https://ziiiliu.github.io/posts/ml/</link>
         <description>All Posts | Ziyi Liu</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 05 Feb 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://ziiiliu.github.io/posts/ml/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://ziiiliu.github.io/posts/ml/" rel="self" type="application/rss+xml" /><item>
     <title>Introduction to Imitation Learning</title>
     <link>https://ziiiliu.github.io/posts/ml/imitation_learning_intro/</link>
     <pubDate>Sat, 05 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://ziiiliu.github.io/posts/ml/imitation_learning_intro/</guid>
