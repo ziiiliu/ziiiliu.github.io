@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <title>Projects - Ziyi Liu</title><meta name="description" content="Ziii&#39;s Page"><meta property="og:title" content="Projects" />
-<meta property="og:description" content="Overview Sim-to-real via real-to-sim My dissertation project for Computer Science Masters is a robotics topic on improving the &ldquo;transfer quality&rdquo; of policies from the simulations to real-world settings, thereby reducing the reality gap induced by the uncertainties and noises in actual environments. A detailed project proposal can be found here: Dissertation Project Proposal" />
+<meta property="og:description" content="My Projects Sim-to-real via real-to-sim My dissertation project for Computer Science Masters is a robotics topic on improving the &ldquo;transfer quality&rdquo; of policies from the simulations to real-world settings, thereby reducing the reality gap induced by the uncertainties and noises in actual environments. A detailed project proposal can be found here: Dissertation Project Proposal.
+As of May 2022, I have completed the project with some minor modifications to the proposed project." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ziiiliu.github.io/projects/" /><meta property="article:section" content="" />
 <meta property="article:published_time" content="2021-08-02T11:04:49+08:00" />
@@ -13,7 +14,8 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Projects"/>
-<meta name="twitter:description" content="Overview Sim-to-real via real-to-sim My dissertation project for Computer Science Masters is a robotics topic on improving the &ldquo;transfer quality&rdquo; of policies from the simulations to real-world settings, thereby reducing the reality gap induced by the uncertainties and noises in actual environments. A detailed project proposal can be found here: Dissertation Project Proposal"/>
+<meta name="twitter:description" content="My Projects Sim-to-real via real-to-sim My dissertation project for Computer Science Masters is a robotics topic on improving the &ldquo;transfer quality&rdquo; of policies from the simulations to real-world settings, thereby reducing the reality gap induced by the uncertainties and noises in actual environments. A detailed project proposal can be found here: Dissertation Project Proposal.
+As of May 2022, I have completed the project with some minor modifications to the proposed project."/>
 <meta name="application-name" content="Ziyi Liu">
 <meta name="apple-mobile-web-app-title" content="Ziyi Liu"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -26,7 +28,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/ziiiliu.github.io\/projects\/"
-        },"genre": "page","wordcount":  53 ,
+        },"genre": "page","wordcount":  344 ,
         "url": "https:\/\/ziiiliu.github.io\/projects\/","datePublished": "2021-08-02T11:04:49+08:00","dateModified": "2021-08-02T11:04:49+08:00","publisher": {
             "@type": "Organization",
             "name": "Author"},"author": {
@@ -75,11 +77,26 @@
                     <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
     <li><a href="#sim-to-real-via-real-to-sim">Sim-to-real via real-to-sim</a></li>
+    <li><a href="#scaffold-based-self-supervised-learning-for-molecular-graphs">Scaffold-based Self-Supervised Learning for Molecular Graphs</a></li>
+    <li><a href="#class-score-aggregation-vs-weight-aggregation-in-non-iid-federated-learning">Class-Score aggregation vs. Weight-aggregation in Non-iid Federated Learning</a></li>
   </ul>
 </nav></div>
-                </div><div class="content" id="content"><h1 id="overview">Overview</h1>
+                </div><div class="content" id="content"><h1 id="my-projects">My Projects</h1>
 <h2 id="sim-to-real-via-real-to-sim">Sim-to-real via real-to-sim</h2>
-<p>My dissertation project for Computer Science Masters is a robotics topic on improving the &ldquo;transfer quality&rdquo; of policies from the simulations to real-world settings, thereby reducing the <em>reality gap</em> induced by the uncertainties and noises in actual environments. A detailed project proposal can be found here: <a href="/sim_2_real_proposal.pdf" rel="">Dissertation Project Proposal</a></p>
+<p>My dissertation project for Computer Science Masters is a robotics topic on improving the &ldquo;transfer quality&rdquo; of policies from the simulations to real-world settings, thereby reducing the <em>reality gap</em> induced by the uncertainties and noises in actual environments. A detailed project proposal can be found here: <a href="/sim_2_real_proposal.pdf" rel="">Dissertation Project Proposal</a>.</p>
+<p>As of May 2022, I have completed the project with some minor modifications to the proposed project. Here is <a href="/Part_III_Dissertation.pdf" rel="">my thesis</a>.</p>
+<h2 id="scaffold-based-self-supervised-learning-for-molecular-graphs">Scaffold-based Self-Supervised Learning for Molecular Graphs</h2>
+<p>This was an independent coursework project for <a href="https://www.cl.cam.ac.uk/teaching/2122/L45/" target="_blank" rel="noopener noreffer">L45: Representation Learning on Graphs and Networks</a>. The performance of the new approaches presented in this project was rather promising (Read the full paper <a href="/L45_Project.pdf" rel="">here</a>).</p>
+<p><em><strong>Abstract</strong></em>: <strong>Data augmentation</strong> has proven a potent approach for many self-supervising contrastive learning methods, where true data can be slightly modified differently into input pairs, such that the model to pre-train can still recognize the original instance after training by matching the representation outputs, making the model robust.
+Although such methods have also been applied to graphs with GNN methods, applications on <strong>molecular graphs</strong> in particular requires extra considerations since randomly masking atoms and subgraphs can significantly change the molecular features and will invalidate the augmentation approach. Therefore, we want to
+develop a tailored approach for <strong>contrastive learning on molecules</strong>, where <strong>scaffolds</strong> - key structures in molecules that cannot be altered without changing the molecular
+properties significantly - are kept intact while we tweak the appended structures
+onto them. We will use two main methods for constructing such samples: 1)
+<strong>pairing molecules with identical scaffolds as positive samples</strong> and 2) <strong>augmenting each scaffold into a pair of different molecules of the same scaffold backbone.</strong>
+We then integrate the augmentation precedures with the GNN model pretraining
+and use them for a variety of downstream tasks with different datasets (BBBP,
+Freesolv, etc.) for both classification and regression, <strong>benchmarked against random augmentation baselines</strong>. We will also benchmark <strong>various GNNs’ performances</strong> against other non-graph-based models (e.g. SVM, Random Forest) to demonstrate their capability in leveraging the scaffolds.</p>
+<h2 id="class-score-aggregation-vs-weight-aggregation-in-non-iid-federated-learning">Class-Score aggregation vs. Weight-aggregation in Non-iid Federated Learning</h2>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info"><div class="post-info-line"><div class="post-info-mod">
                 <span>Updated on 2021-08-02</span>
