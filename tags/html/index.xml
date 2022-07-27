@@ -4,7 +4,7 @@
         <link>https://ziiiliu.github.io/tags/html/</link>
         <description>html - Tag - Ziyi Liu</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 05 Nov 2020 20:46:05 &#43;0000</lastBuildDate><atom:link href="https://ziiiliu.github.io/tags/html/" rel="self" type="application/rss+xml" /><item>
-    <title>Intro to Flask (1)</title>
+    <title>Intro to Flask (2)</title>
     <link>https://ziiiliu.github.io/posts/flask2/</link>
     <pubDate>Thu, 05 Nov 2020 20:46:05 &#43;0000</pubDate><guid>https://ziiiliu.github.io/posts/flask2/</guid>
     <description><![CDATA[Last week was my first meeting with Flask and pretty much the concept of web development, since it was at most &ldquo;Heads up HTML&rdquo; in the past. This week I will be dabbling a bit on basic Flask features and usages, templates, template inheritance and Bootstrap framework.

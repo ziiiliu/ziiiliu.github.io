@@ -10,7 +10,7 @@
     <description><![CDATA[Useful numpy exercises ranging from the very basics to some somewhat complex but useful numpy features.]]></description>
 </item>
 <item>
-    <title>Intro to Flask (1)</title>
+    <title>Intro to Flask (2)</title>
     <link>https://ziiiliu.github.io/posts/flask2/</link>
     <pubDate>Thu, 05 Nov 2020 20:46:05 &#43;0000</pubDate><guid>https://ziiiliu.github.io/posts/flask2/</guid>
     <description><![CDATA[Last week was my first meeting with Flask and pretty much the concept of web development, since it was at most &ldquo;Heads up HTML&rdquo; in the past. This week I will be dabbling a bit on basic Flask features and usages, templates, template inheritance and Bootstrap framework.
@@ -18,7 +18,7 @@ Flask basics Firstly, quoting flask website:
  A Flask application is an instance of the Flask class. Everything about the application, such as configuration and URLs, will be registered with this class.]]></description>
 </item>
 <item>
-    <title>Intro to Flask (2)</title>
+    <title>Intro to Flask (1)</title>
     <link>https://ziiiliu.github.io/posts/flask/</link>
     <pubDate>Thu, 29 Oct 2020 20:30:20 &#43;0000</pubDate><guid>https://ziiiliu.github.io/posts/flask/</guid>
     <description><![CDATA[So after delaying this website project for almost a year, I&rsquo;m back online and will be producing weekly microblogs(stressful terms, sorry) on CS-related contents, as well as other random blogs about life. In the meantime I am still familiarising myself with Hugo, so don&rsquo;t be surprised if the structuring and themes get a bit whimsical - or actually I might just do it for fun :)))
