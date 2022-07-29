@@ -28,7 +28,7 @@ As of May 2022, I have completed the project with some minor modifications to th
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/ziiiliu.github.io\/projects\/"
-        },"genre": "page","wordcount":  484 ,
+        },"genre": "page","wordcount":  1006 ,
         "url": "https:\/\/ziiiliu.github.io\/projects\/","datePublished": "2021-08-02T11:04:49+08:00","dateModified": "2022-07-27T17:24:04+01:00","publisher": {
             "@type": "Organization",
             "name": "Ziyi"},"author": {
@@ -79,6 +79,8 @@ As of May 2022, I have completed the project with some minor modifications to th
     <li><a href="#sim-to-real-via-real-to-sim">Sim-to-real via real-to-sim</a></li>
     <li><a href="#scaffold-based-self-supervised-learning-for-molecular-graphs">Scaffold-based Self-Supervised Learning for Molecular Graphs</a></li>
     <li><a href="#class-score-aggregation-vs-weight-aggregation-in-non-iid-federated-learning">Class-Score aggregation vs. Weight-aggregation in Non-iid Federated Learning</a></li>
+    <li><a href="#pca-like-autoencoding">PCA-like Autoencoding</a></li>
+    <li><a href="#generative-adversarial-imitation-learning-benchmarking-and-investigative-explorations">Generative Adversarial Imitation Learning Benchmarking and Investigative Explorations</a></li>
   </ul>
 </nav></div>
                 </div><div class="content" id="content"><h1 id="my-projects">My Projects</h1>
@@ -102,6 +104,15 @@ We then integrate the augmentation precedures with the GNN model pretraining
 and use them for a variety of downstream tasks with different datasets (BBBP,
 Freesolv, etc.) for both classification and regression, <strong>benchmarked against random augmentation baselines</strong>. We will also benchmark <strong>various GNNs’ performances</strong> against other non-graph-based models (e.g. SVM, Random Forest) to demonstrate their capability in leveraging the scaffolds.</p>
 <h2 id="class-score-aggregation-vs-weight-aggregation-in-non-iid-federated-learning">Class-Score aggregation vs. Weight-aggregation in Non-iid Federated Learning</h2>
+<p>I collaborated with <em>Brady Peng</em> and <em>Wanru Zhao</em> on this Federated Learning project as the final coursework for <a href="https://www.cl.cam.ac.uk/teaching/2021/L46/" target="_blank" rel="noopener noreffer">L46: Principles of Machine Learning Systems</a>. Our work addressed the non-iid issue faced by many FL systems, where the harm of data heterogeneity can swamp the performance superiority of FL demonstrated on balanced datasets. We tried various popular approaches with some modifications and compared their performances on datasets with a varying degree of heterogeneity. See the full report <a href="/files/L46_project.pdf" rel="">here</a>.</p>
+<p><em><strong>Abstract</strong></em>: In real-world Federated learning (FL) settings, data distribution among clients is rarely iid. This premise poses a strong challenge to traditional FL approaches. Among many solutions proposed to tackle such data heterogeneity, we provide a straightforward comparison of a few popular approaches, including FedDS and FedPer which use model-weight aggregation, and compare their performance to FedMD which uses class-score aggregation under different degree of non-iid data. In the end, we further expand each of the methods with their own individual experiments and provide a qualitative explanation of their effectiveness.</p>
+<h2 id="pca-like-autoencoding">PCA-like Autoencoding</h2>
+<p>In <a href="https://www.cl.cam.ac.uk/teaching/2122/LE49/" target="_blank" rel="noopener noreffer">LE49: Probabilistic Machine Learning</a>, we covered a wide range of ML topics with the kernel of probabilistic thinking, and I must say I struggled a lot with the course at first. The coursework project, however, provided much clarity for me on interpreting ML algorithms and procedures probabilistically. The central idea behind <a href="/files/LE49_Project.pdf" rel="">this paper</a> may not be as complex as some of my other works, but it offered me tons of insight.</p>
+<p><em><strong>Abstract</strong></em>: Principal Component Analysis(PCA) is a widely popular approach for dimensionality reduction by producing a set of orthogonal latent variables with ordered importance. Autoencoders (AE), which can also be used to learn a predetermined dimension of latent representation, are more capable of capturing complex nonlinear features due to the flexibility of its encoder-decoder architecture. However, importance ordering of latent variables and independence are lost in simple autoencoders, and as such the main objective of this paper is to retain these two features to make it PCA-like while taking advantage of non-linearity from autoencoders. A probabilistic interpretation with variational AE (VAE) is then provided and we integrated the new implementation with two existing methods on a new synthetic dataset ’Rectangles’. We also propose a classification downstream task as a quantitative metric alongside the standard analysis of covariance and interpolations.</p>
+<h2 id="generative-adversarial-imitation-learning-benchmarking-and-investigative-explorations">Generative Adversarial Imitation Learning Benchmarking and Investigative Explorations</h2>
+<p>Imitation Learning</p>
+<p><em><strong>Abstract</strong></em>: Generative Adversarial Imitation learning (GAIL), derived from inverse reinforcement learning (IRL), has shown both theoretic soundness and empirical prowess in the selected experiments from the original paper. We set out to reproduce some of the experimental results to reiterate the validity in part as well as to lay out
+the caveats in the original conclusions with detailed analysis, since we are unable to recover similar outcomes in some cases. An extension to novel environments was conducted to further test the capabilities of GAIL as opposed to the baseline methods. We also endeavored to improve GAIL performance by adjusting the regularization and architectural hyperparameters. With all the challenges and issues in mind from the experimental and exploratory work, we proposed several valuable research tracks for a more comprehensive future work, training resources permitting.</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info"><div class="post-info-line"><div class="post-info-mod">
                 <span>Updated on 2022-07-27&nbsp;<a class="git-hash" href="https://github.com/ziiiliu/ziiiliu.github.io/commit/7b3a49be0317a5370bf7ccb6df3899b658883421" target="_blank" title="committed&nbsp;by&nbsp;ziii(canamg2000@hotmail.com)&nbsp;7b3a49b:&nbsp;2022 first update">
