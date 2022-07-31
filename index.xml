@@ -12,6 +12,26 @@
     <description><![CDATA[Useful numpy exercises ranging from the very basics to some somewhat complex but useful numpy features.]]></description>
 </item>
 <item>
+    <title>Introduction to Imitation Learning</title>
+    <link>https://ziiiliu.github.io/posts/ml/imitation_learning_intro/</link>
+    <pubDate>Sat, 05 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://ziiiliu.github.io/posts/ml/imitation_learning_intro/</guid>
+    <description><![CDATA[Imitation Learning cool]]></description>
+</item>
+<item>
+    <title>Post-mortem analysis of UROP Internship</title>
+    <link>https://ziiiliu.github.io/posts/ml/blog-post-recording-my-internship-result/</link>
+    <pubDate>Fri, 04 Feb 2022 23:36:23 &#43;0000</pubDate><guid>https://ziiiliu.github.io/posts/ml/blog-post-recording-my-internship-result/</guid>
+    <description><![CDATA[Blog Post recording my Internship results and post-mortem analysis]]></description>
+</item>
+<item>
+    <title>Prompt-tuning resources</title>
+    <link>https://ziiiliu.github.io/posts/ml/resources/</link>
+    <pubDate>Fri, 04 Feb 2022 23:36:23 &#43;0000</pubDate><guid>https://ziiiliu.github.io/posts/ml/resources/</guid>
+    <description><![CDATA[Resources and References for Prompt-Tuning Post Papers Some relevant papers I have used, read and referenced are listed here:
+ Prompt Survey: Pretrain, Prompt, Predict  Repos Useful repositories for prompt tuning projects:
+ THU PTR Prompt Papers  ]]></description>
+</item>
+<item>
     <title>Intro to Flask (2)</title>
     <link>https://ziiiliu.github.io/posts/flask2/</link>
     <pubDate>Thu, 05 Nov 2020 20:46:05 &#43;0000</pubDate><guid>https://ziiiliu.github.io/posts/flask2/</guid>
@@ -27,6 +47,14 @@ Flask basics Firstly, quoting flask website:
 Flask and Django Web develpment has not been my top priority, and it is only very recently(last two days) that I decided to start picking up Python web dev as a start.]]></description>
 </item>
 <item>
+    <title>Prompt-tuning introduction</title>
+    <link>https://ziiiliu.github.io/posts/ml/blog-piece-on-prompt-tuning/</link>
+    <pubDate>Thu, 19 Sep 2019 14:34:48 &#43;0800</pubDate><guid>https://ziiiliu.github.io/posts/ml/blog-piece-on-prompt-tuning/</guid>
+    <description><![CDATA[Blog Piece on Prompt Tuning
+Blog Structure
+ Introduction to Prompt Tuning Paradigm Reference to the survey work and summarise some important ideas Run a simple example with my own codes (a small binary classification demo)  History has repeatedly shown the power of revolutions over reforms, where revolutions topple the previous patterns with a completely new landscapes, while reforms are patches that hold everything in place.]]></description>
+</item>
+<item>
     <title>Markdown basics</title>
     <link>https://ziiiliu.github.io/posts/md_basics/</link>
     <pubDate>Tue, 17 Sep 2019 14:50:36 &#43;0800</pubDate><guid>https://ziiiliu.github.io/posts/md_basics/</guid>
@@ -36,12 +64,6 @@ Second lever header: &mdash;&mdash;- beneath
   Blockquote  So this is a blockquote.
  A blockquote is done with a &lsquo;&gt;&rsquo; at the very front of the line for every line that you want to quote.
  This is one line]]></description>
-</item>
-<item>
-    <title>ML</title>
-    <link>https://ziiiliu.github.io/posts/ml/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><guid>https://ziiiliu.github.io/posts/ml/</guid>
-    <description><![CDATA[]]></description>
 </item>
 </channel>
 </rss>
