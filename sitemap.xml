@@ -2,9 +2,10 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://ziiiliu.github.io/newsletter/</loc><lastmod>2022-07-25T10:04:49&#43;00:00</lastmod></url><url>
+            <loc>https://ziiiliu.github.io/newsletter/</loc><lastmod>2022-08-01T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>https://ziiiliu.github.io/newsletter/issue2/</loc><lastmod>2022-08-01T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>https://ziiiliu.github.io/</loc><lastmod>2022-08-01T00:00:00&#43;00:00</lastmod></url><url>
             <loc>https://ziiiliu.github.io/newsletter/issue1/</loc><lastmod>2022-07-25T10:04:49&#43;00:00</lastmod></url><url>
-            <loc>https://ziiiliu.github.io/</loc><lastmod>2022-07-27T17:24:04&#43;01:00</lastmod></url><url>
             <loc>https://ziiiliu.github.io/tags/cs/</loc><lastmod>2022-07-27T17:24:04&#43;01:00</lastmod></url><url>
             <loc>https://ziiiliu.github.io/posts/blog-piece-on-google-colab-usage/</loc><lastmod>2022-07-27T17:24:04&#43;01:00</lastmod></url><url>
             <loc>https://ziiiliu.github.io/posts/ml/imitation_learning_intro/</loc><lastmod>2022-07-27T17:24:04&#43;01:00</lastmod></url><url>
