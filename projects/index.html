@@ -10,7 +10,7 @@ As of May 2022, I have completed the project with some minor modifications to th
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ziiiliu.github.io/projects/" /><meta property="article:section" content="" />
 <meta property="article:published_time" content="2021-08-02T11:04:49+08:00" />
-<meta property="article:modified_time" content="2022-07-27T17:24:04+01:00" />
+<meta property="article:modified_time" content="2022-08-03T13:07:31+01:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Projects"/>
@@ -28,8 +28,8 @@ As of May 2022, I have completed the project with some minor modifications to th
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/ziiiliu.github.io\/projects\/"
-        },"genre": "page","wordcount":  1232 ,
-        "url": "https:\/\/ziiiliu.github.io\/projects\/","datePublished": "2021-08-02T11:04:49+08:00","dateModified": "2022-07-27T17:24:04+01:00","publisher": {
+        },"genre": "page","wordcount":  1408 ,
+        "url": "https:\/\/ziiiliu.github.io\/projects\/","datePublished": "2021-08-02T11:04:49+08:00","dateModified": "2022-08-03T13:07:31+01:00","publisher": {
             "@type": "Organization",
             "name": "Ziyi"},"author": {
                 "@type": "Person",
@@ -85,6 +85,7 @@ As of May 2022, I have completed the project with some minor modifications to th
         <li><a href="#pca-like-autoencoding">PCA-like Autoencoding</a></li>
         <li><a href="#generative-adversarial-imitation-learning-benchmarking-and-investigative-explorations">Generative Adversarial Imitation Learning Benchmarking and Investigative Explorations</a></li>
         <li><a href="#background-matting-with-transformers">Background Matting with Transformers</a></li>
+        <li><a href="#adaptive-sampling-for-multimodal-anomaly-detection">Adaptive Sampling for Multimodal Anomaly Detection</a></li>
       </ul>
     </li>
   </ul>
@@ -121,10 +122,13 @@ Freesolv, etc.) for both classification and regression, <strong>benchmarked agai
 the caveats in the original conclusions with detailed analysis, since we are unable to recover similar outcomes in some cases. An extension to novel environments was conducted to further test the capabilities of GAIL as opposed to the baseline methods. We also endeavored to improve GAIL performance by adjusting the regularization and architectural hyperparameters. With all the challenges and issues in mind from the experimental and exploratory work, we proposed several valuable research tracks for a more comprehensive future work, training resources permitting.</p>
 <h3 id="background-matting-with-transformers">Background Matting with Transformers</h3>
 <p>My very first project in <a href="https://www.cst.cam.ac.uk/" target="_blank" rel="noopener noreffer">Computer Lab</a> was the coursework from <a href="https://www.cl.cam.ac.uk/teaching/2122/L335/" target="_blank" rel="noopener noreffer">L335: Machine Visual Perception</a>. Image/Video Matting, in plain words, refers to obtaining the foreground elements (such as human beings, faces, featured objects, etc.) from the background. While CNN-based approaches have been widely applied to this field, their capabilities of capturing global features on images are lacking compared with transformer-enabled models. Therefore, this project aimed at integrating selected existing CNN backbones with customised transformer blocks and applying the full architecture to image and video matting. Given the short span of the project (less than 3 weeks), some preliminary work and findings can be found in <a href="/files/L335_Report.pdf" rel="">this report</a>.</p>
+<h3 id="adaptive-sampling-for-multimodal-anomaly-detection">Adaptive Sampling for Multimodal Anomaly Detection</h3>
+<p>The UROP project with the <a href="https://www.imperial.ac.uk/language-and-communication-intelligence/research-themes/natural-language-processing/" target="_blank" rel="noopener noreffer">Imperial College NLP Group</a> was co-supervised by Prof. Lucia Specia and Dr. Julia Ive. Multimodality in social media and gaming platforms is ubiquitous, where texts, images, audios, memes, and videos could all show up. Therefore, anomaly detection targeting one medium can be lacking and deprived of context, thus impairing the detection accuracy. In <a href="https://gombru.github.io/2019/10/09/MMHS/" target="_blank" rel="noopener noreffer">this paper</a>, several examples are provided to illustrate how incomplete information can lead to false predictions from the algorithm. In addition to optimising multimodal models, we also adopted an active learning approach for better training efficiency.</p>
+<p><em><strong>Abstract</strong></em>: We adapted our own multimodal classification model based on OSCAR model that aligns images and texts with object tags for hate speech detection task. In addition to raw text-image paired input, the improved model was tailored to further include high-level features as auxiliary inputs, such as correlation between different sections of texts and sentiment analysis. We then proposed a systematic approach of performing model-agnostic active sampling on multimodal classification tasks with various uncertainty estimation methods.</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info"><div class="post-info-line"><div class="post-info-mod">
-                <span>Updated on 2022-07-27&nbsp;<a class="git-hash" href="https://github.com/ziiiliu/ziiiliu.github.io/commit/7b3a49be0317a5370bf7ccb6df3899b658883421" target="_blank" title="committed&nbsp;by&nbsp;ziii(canamg2000@hotmail.com)&nbsp;7b3a49b:&nbsp;2022 first update">
-                            <i class="fas fa-hashtag fa-fw"></i>7b3a49b</a></span>
+                <span>Updated on 2022-08-03&nbsp;<a class="git-hash" href="https://github.com/ziiiliu/ziiiliu.github.io/commit/93906423f2fdb04c33683cb8825352c8cc598f2c" target="_blank" title="committed&nbsp;by&nbsp;ziii(canamg2000@hotmail.com)&nbsp;9390642:&nbsp;version update">
+                            <i class="fas fa-hashtag fa-fw"></i>9390642</a></span>
             </div><div class="post-info-mod"></div>
         </div></div></div>
 </div><div id="comments" class="single-card"></div></article></div>
