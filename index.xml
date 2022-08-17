@@ -3,9 +3,15 @@
         <title>Ziyi Liu</title>
         <link>https://ziiiliu.github.io/</link>
         <description>Ziii&#39;s Page</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 08 Aug 2022 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 15 Aug 2022 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://ziiiliu.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>On The Road - Book Review</title>
+    <link>https://ziiiliu.github.io/posts/on_the_road_review/</link>
+    <pubDate>Sat, 13 Aug 2022 00:00:00 &#43;0000</pubDate><guid>https://ziiiliu.github.io/posts/on_the_road_review/</guid>
+    <description><![CDATA[I must say flipping through the first few pages of this very Beat book beat me up so much. It reminds me of my struggle through The Catcher of The Rye, except in that book the struggle lasted till the very last page. However, once I got used to the beat style of narrative and lifestyle the author was trying to convey, the vibe started to feel natural and almost inviting.]]></description>
+</item>
+<item>
     <title>Google Colab beyond Jupyter Notebook</title>
     <link>https://ziiiliu.github.io/posts/blog-piece-on-google-colab-usage/</link>
     <pubDate>Sat, 05 Feb 2022 00:00:00 &#43;0000</pubDate><guid>https://ziiiliu.github.io/posts/blog-piece-on-google-colab-usage/</guid>
